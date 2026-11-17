@@ -5,7 +5,7 @@ int a, b;
 char choice;
 printf("Enter choice:");
 scanf("%c", &choice);
-printf("Enter two numbers:")
+printf("Enter two numbers:");
 scanf("%d %d", &a,&b);
 switch(choice){
     case '+': printf("sum=%d",a+b);
@@ -18,6 +18,7 @@ switch(choice){
     {
         printf("%d",b-a);
     }
+    break;
     case '*': printf("product=%d",(a*b));
     break;
     default: printf("Invalid input");
